@@ -12,10 +12,10 @@ const Body = Matter.Body;
 
 function preload()
 {
-	starImg = loadImage("images/star.png");
-	bgImg = loadImage("images/starNight.png");
-	hadaan = loadAnimation("images/fairyImage1.png","images/fairyImage2.png");
-	sound = loadSound("sound/JoyMusic.mp3");
+	starImg = loadImage("star.png");
+	bgImg = loadImage("starNight.png");
+	hadaan = loadAnimation("fairyImage1.png","fairyImage2.png");
+	sound = loadSound("JoyMusic.mp3");
 	//carga aquí la animación del hada
 }
 
